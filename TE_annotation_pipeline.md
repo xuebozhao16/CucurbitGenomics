@@ -1,3 +1,5 @@
+Cucumber TE Annotation Pipeline
+
 Following the NAM pipeline:
 https://github.com/HuffordLab/NAM-genomes/tree/master/te-annotation
 
@@ -57,7 +59,7 @@ Mask TE regions
 bedtools maskfasta \
    -mc N \
    -fi genomes/${g}.fa \
-   -bed TE_${g}.bed \
+   -bed ${g}.TE.bed \
    -fo ${g}.masked.fa
 
 4. Build Pan-Genome TE Library
