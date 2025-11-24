@@ -6,7 +6,6 @@ Bioinformatics scripts and pipelines for Cucurbitaceae (cucumber, bottle gourd, 
 - **Genome assembly and annotation**
 - **Structural variant discovery and genotyping**
 - **Population genetics**
-- **GWAS and genomic prediction**
 - **Adaptation**
 
 ## Species included
