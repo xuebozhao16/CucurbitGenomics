@@ -4,7 +4,7 @@ library(colorspace)
 library(RColorBrewer)
 library(ggmap)
 library(zoo)
-setwd("/Users/xuebozhao/Documents/LuLab/wheatSpeciation/species_split_time/lostruct")
+setwd("/Users/xuebozhao/Documents/FeiLab/Speciation/species_split_time/lostruct")
 samples <- read.table("sub_Urartu.txt",header =F)
 colnames(samples) <- c("sample")
 snps <- read_vcf("test_urartu.chr2.vcf.gz") #这是在跑bcftools
