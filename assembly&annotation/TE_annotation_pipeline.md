@@ -14,7 +14,6 @@ This workflow describes the transposable element (TE) annotation process for cuc
 ## 1. Install EDTA and Dependencies
 ```bash
 git clone https://github.com/oushujun/EDTA.git
-cd EDTA
 conda env create -f EDTA.yml
 conda activate EDTA
 conda install -c bioconda repeatmasker bedtools seqtk
