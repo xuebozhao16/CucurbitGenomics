@@ -161,7 +161,6 @@ Note: if you are using the step by step interface instead of `cactus-pangenome`,
 ### Running Minigraph on Chromosomes Independently
 
 By default, minigraph construction and mapping are performed at the whole-genome level.  The results are then split by (reference) chromosome so that Cactus (and some subsequent processing) can be run one chromosome at a time.  The `cactus-pangenome --mgSplit` option was introduced to run the minigraph construction and mapping independently at the chromosome level instead.  The intention is that by allowing the pipeline to choose a different ordering for minigraph construction for each chromosome, the accuracy of the output can be improved.  This comes at the cost of extra computation (minigraph construction and mapping run twice).  The step-by-step interface is likewise supported to support this and, using the small included example, would look like
-
 ```
 cactus-minigraph js examples/evolverPrimates.txt ep.sv.gfa.gz --refOnly --reference simChimp 
 cactus-graphmap js examples/evolverPrimates.txt ep.sv.gfa.gz ep.paf --reference simChimp  --outputFasta ep.sv.fa.gz
