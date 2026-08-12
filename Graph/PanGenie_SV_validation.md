@@ -2,6 +2,7 @@
 
 This document contains the complete reproducible workflow used to evaluate the accuracy of PanGenie-based structural variant (SV) genotyping. The validation uses a leave-one-assembly-out strategy: for each accession, a pangenome graph is constructed without that accession, short reads are generated from the held-out assembly, and PanGenie genotypes the held-out accession against the reduced graph. Assembly-derived SV genotypes are treated as the reference truth.
 
+
 ## Validation design
 
 Nine *C. pepo* assemblies were used:
