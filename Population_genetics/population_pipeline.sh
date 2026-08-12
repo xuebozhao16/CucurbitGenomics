@@ -14,7 +14,6 @@
 # bcftools, vcftools, plink, PopLDdecay, snpEff, RAxML, WGS,
 # smc++, treemix, bedtools
 
-
 # ============================================================
 # 1. VCF filtering
 # ============================================================
