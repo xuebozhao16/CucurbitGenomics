@@ -8,7 +8,6 @@
 #
 # Author: Xuebo Zhao
 # Repository: CucurbitGenomics
-#
 
 ###############################################
 # 0. Input arguments
