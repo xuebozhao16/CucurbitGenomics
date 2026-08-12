@@ -18,7 +18,6 @@ This pipeline annotates genes across 39 *Cucumis sativus* genomes using:
 
 ### Transcript Evidence (RNA‑seq from root, stem, leaf, flower, fruit)
 ```
-Trinity --seqType fq --left R1.fq --right R2.fq --CPU 40 --max_memory 200G
 ```
 
 ### Protein Homology Evidence  
