@@ -1,12 +1,4 @@
 ###################Local PCA
-######使用测试数据，找的是EUlanarace,2A,为了数据量少一些，使用的是带着外类群的/data2/xuebo/Projects/Speciation/tree/withBarley_segregate
-bcftools view -Oz -S /data2/xuebo/Projects/Speciation/group/landrace_group/landrace_EU.txt /data2/xuebo/Projects/Speciation/tree/withBarley_segregate/chr7.withBarley.vcf.gz --threads 48 -o chr7_landEU.withBarley.vcf.gz
-for chr in {1..42}
-do
-	bcftools view -Oz -S /data2/xuebo/Projects/Speciation/group/landrace_group/landrace_EU.txt /data2/xuebo/Projects/Speciation/E3/chr${chr}.all.vcf.gz --threads 48 -o chr${chr}_landEU.vcf.gz &
-done
-###
-bcftools view  -Oz chr7_landEU.withBarley.vcf.gz -o chr7_landEU.withBarley.bcf.gz
 # devtools::install_github("petrelharp/local_pca/lostruct")
 library(tidyverse)
 library(lostruct)
