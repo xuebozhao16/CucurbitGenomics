@@ -2,7 +2,9 @@
 
 ## Workflow
 
-This workflow describes the construction of a pan-genome transposable element (TE) library and genome-wide TE annotation using EDTA and RepeatMasker.
+This workflow describes the construction of a pan-genome transposable element (TE) library and genome-wide TE annotation using EDTA and RepeatMasker. 
+Following the NAM pipeline: https://github.com/HuffordLab/NAM-genomes/tree/master/te-annotation
+
 
 ---
 
