@@ -1,0 +1,3 @@
+# Exclude Bayenv results and SFS data from language statistics
+*.bf -linguist-detectable
+sfs.*.txt -linguist-detectable
